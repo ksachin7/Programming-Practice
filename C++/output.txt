@@ -1,0 +1,14 @@
+0x100008160
+3.4
+7
+9
+11
+0
+Enter a number
+You Entered: 7
+Enter your name:
+Hello Sachin
+Printing full name: Sachin Kumar
+125
+46.656
+Hey Sachin
