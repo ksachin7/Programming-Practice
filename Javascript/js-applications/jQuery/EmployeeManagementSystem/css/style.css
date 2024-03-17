@@ -1,0 +1,119 @@
+/* Basic styles for the page layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for the employee table */
+#employee-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#employee-table th,
+#employee-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+#employee-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#employee-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for the Add Employee form */
+#add-employee-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 20px auto;
+}
+
+#add-employee-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#add-employee-form input[type="text"],
+#add-employee-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#add-employee-form button[type="submit"],
+#add-employee-form button[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#add-employee-form button[type="submit"]:hover,
+#add-employee-form button[type="button"]:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for the search bar */
+#search-bar {
+  width: 50%;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styles for the "Delete" button */
+.delete-employee {
+  background-color: red;
+  color: white;
+}
+
+/* Styles for the "Edit" button */
+.edit-employee {
+  background-color: orange; /* Change to your desired color */
+  color: white;
+}

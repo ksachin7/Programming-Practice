@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZF2P17CLC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-2ZF2P17CLC');
+    </script>
+    <meta name="author" content="SachinKumar">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting-Game</title>
+    <link rel="stylesheet" href="game.css?v=1.3">
+</head>
+
+<body>
+    <!-- Submit your answer
+    Create a 2 player shooting game.
+    Each player has a health of 100.
+    Players can shoot at each other with a random power (0-5) which will reduce the opponent's health.
+    The Player whose health reaches 0, dies and the game ends.
+    
+    There are 5 such rounds, the player with the most game wins, wins the match/tournament.
+    
+    On the screen, there should be a button to start the game.
+    Once the game finishes, it should update the current score.
+    When a player wins 3 games, show the winner of the match.
+    
+    Solve the problem at https://jsfiddle.net/ or https://codepen.io/ and submit the link below.
+    
+    Deadline - 2 days -->
+    <div class="container">
+        <h1><strong>Two Player Shooting Game</strong></h1>
+        <div class="sbg">
+            <div style="flex-grow: 1">
+                <img src="img/p1.png" alt="womenshoots" height="400px" width="auto">
+                <span id="x"></span>
+            </div>
+            <div style="flex-grow: 5"></div>
+            <div style="flex-grow: 1" id="">
+                <span id="y"></span>
+                <img src="img/p2.png" alt="menshoots" height="400px" width="auto">
+            </div>
+        </div>
+        <div class="pscore">
+            <p class="p1s" style="flex-grow: 4">Player-1 Health: <span id="p1s">100</span></p><span
+                style="flex-grow: 3"></span>
+            <p class="p2s" style="flex-grow: 4">Player-2 Health: <span id="p2s">100</span></p>
+        </div>
+        <button id="play" onclick="start()">Start</button>
+        <button id="reset" onclick="location.reload()">Restart</button>
+
+        <div class="pwc">
+            <p class="p1w" style="flex-grow: 6">Player-1 Won: <span id="p1w">0</span></p>
+            <p class="p1w" style="flex-grow: 6">Player-2 Won: <span id="p2w">0</span></p>
+        </div>
+
+        <p id="pw"></p>
+
+    </div>
+    <div style="display:flex;justify-content:center;overflow:auto;">
+        <pre style="color: silver;">    Each player has a health of 100.
+    Players can shoot at each other with a random power (0-5) which will reduce the opponent's health.
+    The Player whose health reaches 0, dies and the game ends.
+    
+    <strong>There are 5 such rounds, the player with the most game wins, wins the match/tournament.</strong>
+    
+    On the screen, there should be a button to start the game.
+    Once the game finishes, it should update the current score.
+    When a player wins 3 games, show the winner of the match.</pre><br>
+    </div>
+
+    <p style="color: orange; text-align:center; padding: 2rem;">Note: This page is not made responsive for small
+        screens. Please view in full-screen mode in PC.</p>
+
+    <script type="text/javascript" src="game.js?v=1.4"></script>
+</body>
+
+</html>

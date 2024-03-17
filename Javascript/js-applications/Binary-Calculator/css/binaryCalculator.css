@@ -1,0 +1,107 @@
+body {
+  width: 100vw;
+  margin: 0 !important;
+  background-color: rgba(240, 238, 238, 0.884);
+  display: flex;
+}
+.container {
+  width: 33%;
+  padding: 11% 11% 11% 21%;
+}
+#res {
+  background-color: rgba(152, 188, 197, 0.678);
+  border: solid black;
+  height: 61px;
+  width: 98.7%;
+  font-size: 20px;
+  color: rgb(39, 163, 163);
+}
+h1 {
+  color: slategrey;
+}
+#btn0,
+#btn1 {
+  color: brown;
+  background-color: lightgreen;
+}
+#btnClr,
+#btnEql {
+  color: white;
+  background-color: darkgreen;
+}
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+  color: red;
+  background-color: black;
+}
+.b {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  margin: 0px;
+  float: left;
+}
+#img {
+  width: 100%;
+}
+.i {
+  /* display: flex; */
+  align-items: center;
+}
+table,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  background-color: rgba(12, 12, 12, 0.932);
+  color: aliceblue;
+  padding: 11px;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+td {
+  text-align: center;
+  padding: 11px;
+}
+table {
+  justify-content: right;
+  padding-left: 11%;
+  align-self: center;
+  margin-top: 21%;
+}
+#instruction {
+  margin-top: 70px;
+  color: rgb(58, 124, 102);
+  font-size: small;
+}
+#instruction span {
+  color: rgb(36, 36, 36);
+}
+@media screen and (max-width: 480px) {
+  body {
+    flex-direction: column;
+  }
+  .container {
+    width: 77%;
+    padding: 11% 11% 11% 11%;
+  }
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  table {
+    width: 100% !important;
+  }
+}
+#instruction,
+h1,
+table {
+  font-family: Arial, Helvetica, serif;
+}
