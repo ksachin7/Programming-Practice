@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  /* color: rgb(27, 27, 27); */
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  color: silver;
+  text-transform: uppercase;
+}
+.container {
+  text-align: center;
+}
+.sbg {
+  padding: 7% 11% 1% 11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pscore {
+  display: flex;
+  font-size: large;
+  color: lightsalmon;
+}
+.pscore span {
+  color: red;
+}
+button {
+  padding: 9px 14px 9px 14px;
+  background-color: rgb(124, 202, 5);
+  border-radius: 6px;
+  border-style: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#reset {
+  background-color: rgba(241, 0, 0, 0.7);
+}
+.p1w {
+  padding-top: 21px;
+}
+.pwc {
+  display: flex;
+  font-size: large;
+}
+.pwc span {
+  color: rgb(28, 153, 111);
+}
+#pw {
+  font-size: xx-large;
+  padding-top: 41px;
+  color: rgb(69, 197, 69);
+}
+/* pre{
+    padding-left: 18%;
+} */
+#x {
+  position: absolute;
+  top: 300px;
+  left: 30%;
+  font-size: xx-large;
+  color: gold;
+}
+#y {
+  position: absolute;
+  top: 300px;
+  left: 64%;
+  font-size: xx-large;
+  color: gold;
+}
