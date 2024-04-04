@@ -279,7 +279,7 @@ console.log(fruits);
 // map vs forEach
 const numbers = [1, 2, 3, 4];
 
-// Map(): it creates a new array and also modifies each elements
+// map(): it creates a new array and also modifies each elements
 const doubledNumbers = numbers.map((num) => {
     return num * 2; // Create a new array with modified values
 });
@@ -344,9 +344,3 @@ delete obj1.height;
 console.log(obj1.height);   // 30
 // obj1 is created using Object.create(), and its prototype is set to an object with a property height set to 30.
 // delete obj1.height; attempts to delete the height property from obj1, the property is not actually deleted from the prototype. Therefore, it still logs 30 to the console.
-
-// Session
-
-// How long it will be accessible?
-sessionStorage.setItem('secret_key', '123');
-

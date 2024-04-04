@@ -1,8 +1,40 @@
-"use strict";
+// "use strict";
+
+// Equality Operator (==)
+console.log(5 == '5');       // true (after type coercion)
+console.log(true == 1);      // true (true is coerced to 1)
+console.log(false == 0);     // true (false is coerced to 0)
+console.log(null == undefined);   // true
+
+// Strict Equality Operator (===)
+console.log(5 === '5');      // false (different types)
+console.log(true === 1);     // false (different types)
+console.log(false === 0);    // false (different types)
+console.log(null === undefined);  // false (different types)
+
+// equality of array and objects
+let obj1 = { name: 'John' };
+let obj2 = { name: 'John' };
+
+console.log(obj1 == obj2);   // false (different object references)
+console.log(obj1 === obj2);  // false (different object references)
+let obj3 = obj2;
+console.log(obj3 == obj2);    // true
+console.log(obj3 === obj2);   // true
+
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+
+console.log(arr1 == arr2);   // false (different array references)
+console.log(arr1 === arr2);  // false (different array references)
+let arr3 = arr2;
+console.log(arr3 == arr2);    // true
+console.log(arr3 === arr2);   // true
+
 //! variables:
 var name, Name, $name, $$$, _name; // '$' is treated as letters in JS.
 let x = 7;
-let x; // will cause error: variables declared with let keyword can't be redeclared
+let x;       // will cause error: variables declared with let keyword can't be redeclared
 const y = 2; // varibles with 'const' keyword must be assigned at the time of declaration
 const y = 4; // will cause error: variables declared with 'let' keyword can't be redeclared or reassigned.
 
