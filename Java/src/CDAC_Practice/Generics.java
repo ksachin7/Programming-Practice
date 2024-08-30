@@ -56,7 +56,7 @@ class MyClass2<T, V> extends MyClass<T> {
 }
 
 // Create an object of type MyClass2.
-class Main {
+class GenericMain {
     public static void main(String args[]) {
 
         // Create a MyClass2 object for String and Integer.

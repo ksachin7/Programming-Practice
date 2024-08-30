@@ -4,15 +4,15 @@ import java.util.*;
 
 public class Collections {
 
- /**<b>Collection methods</b>
+ /**<b>Duplicates.Collection methods</b>
   *  int size()
   *  boolean isEmpty()
   *  boolean contains(Object element)
-  *  boolean containsAll(Collection c)
+  *  boolean containsAll(Duplicates.Collection c)
   *  boolean add(Object element)
-  *  boolean addAll(Collection c)
+  *  boolean addAll(Duplicates.Collection c)
   *  boolean remove(Object element)
-  *  boolean removeAll(Collection c)
+  *  boolean removeAll(Duplicates.Collection c)
   *  void clear()
   *  Object[] toArray()
   *  Iterator iterator()
