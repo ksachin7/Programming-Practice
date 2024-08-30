@@ -1,4 +1,4 @@
-package itssachin.interviewPractice;
+package interviewPractice.java;
 
 public class Multithreading implements Runnable {
 

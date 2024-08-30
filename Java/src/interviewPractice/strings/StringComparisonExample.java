@@ -1,4 +1,4 @@
-package interviewPractice;
+package interviewPractice.strings;
 /**
  * This class demonstrates different methods of comparing strings.
  * The intern() method is typically used to add strings to the string pool and return a canonical representation of the string.

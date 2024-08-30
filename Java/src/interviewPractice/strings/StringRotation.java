@@ -1,4 +1,4 @@
-package interviewPractice;
+package interviewPractice.strings;
 
  class StringRotation {
     // Method to rotate a string to the left by a specified number of positions

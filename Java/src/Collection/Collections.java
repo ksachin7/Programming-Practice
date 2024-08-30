@@ -72,7 +72,7 @@ public class Collections {
 
          // --------------- Stack ----------------
          System.out.println("----- Creating Stack and adding elements -----");
-         Stack<String> stack = new Stack<String>();
+         Stack<String> stack = new Stack<>();
          stack.push("Aniket");
          stack.push("Garvit");
          stack.push("Amit");

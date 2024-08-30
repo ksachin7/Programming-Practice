@@ -1,4 +1,4 @@
-package interviewPractice;
+package interviewPractice.java;
 import java.util.Objects;
 
 public class OverridingObjectMethods {

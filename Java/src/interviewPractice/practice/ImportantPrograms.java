@@ -1,4 +1,4 @@
-package interviewPractice;
+package interviewPractice.practice;
 import java.util.*;
 
 public class ImportantPrograms {
@@ -52,13 +52,27 @@ public class ImportantPrograms {
     // Fibonacci series up to the nth term
     static void printFibonacciSeries(int n) {
         int first = 0, second = 1;
-        System.out.print(first + " ");
+        System.out.print(first + " "+ second+" ");
         for (int i = 2; i <= n; i++) {
             int next = first + second;
             System.out.print(next + " ");
             first = second;
             second = next;
         }
+    }
+
+    // nth Fibonacci number
+    public static int whatsNthFibonacci(int n){
+        if(n<= 1)
+            return n;
+        int first= 0, second= 1;
+
+        for (int i = 2; i <= n; i++) {
+            int nextValue= first+second;  // Compute the next Fibonacci number
+            first= second;                // Update 'first' to the previous Fibonacci number
+            second= nextValue;            // Update 'second' to the current Fibonacci number
+        }
+        return second;
     }
 
     // Greatest Common Divisor (GCD)
@@ -86,10 +100,16 @@ public class ImportantPrograms {
     static boolean areAnagrams(String str1, String str2) {
         str1 = str1.replace(" ", "").toLowerCase();
         str2 = str2.replace(" ", "").toLowerCase();
+
+        if(str1.length() != str2.length())
+            return false;
+
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
+
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+
         return Arrays.equals(arr1, arr2);
     }
 
@@ -256,6 +276,9 @@ public class ImportantPrograms {
         System.out.print("Fibonacci series: ");
         printFibonacciSeries(10);
         System.out.println();
+
+        int n=5;
+        System.out.println(n+"th Fibonacci:"+ whatsNthFibonacci(n));
 
         int gcdResult = gcd(48, 18);
         System.out.println("GCD: " + gcdResult);

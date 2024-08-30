@@ -1,4 +1,4 @@
-package itssachin.interviewPractice;
+package interviewPractice;
 
 import java.util.HashMap;
 import java.util.Map;

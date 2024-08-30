@@ -1,4 +1,4 @@
-package itssachin.twisters;
+package twisters;
 
 public class StaticTest extends parent {
     public static int x=10;
