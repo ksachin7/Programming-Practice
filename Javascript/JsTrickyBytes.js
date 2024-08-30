@@ -1,12 +1,12 @@
 // hoisting
 (function hoisting() {
-    name = 'abc';
-    num = 21;
+    // name = 'abc';
+    // num = 21;
     console.log(name);
     console.log(num);
 
     var name;
-    var num;
+    let num;
 }())
 
 // Block-scoped let and const variables
@@ -63,17 +63,18 @@ console.log(i);
 // with IIFE
 var variable = 10;
 (() => {
-    console.log(variable);
+    console.log('log-1: ',variable);
 
     variable = 20;
-    console.log(variable);
+    console.log('log-2: ',variable);
 })()
-console.log(variable);
+console.log('log-3: ',variable);
 variable = 30;
 
 // IIFE-example-2
 for (var i = 0; i < 10; i++) {
     (function (num) {
+        // console.log('---');
         setTimeout(function () {
             console.log('The number is: ' + num);
         }, 1000);
@@ -83,6 +84,7 @@ for (var i = 0; i < 10; i++) {
 // what will be the output()
 for (var i = 0; i < 10; i++) {
     setTimeout(() => { console.log('The number is: ' + i) }, 0);
+    // console.log('The number is: ' + i)
 }
 // In this code snippet, you have a loop that runs 10 times, and for each iteration, it schedules a setTimeout function to be executed after 0 milliseconds (effectively immediately). 
 // However, due to the asynchronous nature of JavaScript and the event loop, by the time the setTimeout function is executed, the loop would have completed, and the value of i would be 10 for all the scheduled functions.
