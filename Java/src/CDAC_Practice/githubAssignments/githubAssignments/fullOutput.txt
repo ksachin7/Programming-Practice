@@ -1,0 +1,50 @@
+/programs/java.programs/assignments/out/production/assignments itssachin.githubAssignments.Test
+
+Enter Balance: 
+500
+Enter annual interest rate: 
+3
+The savings account is currently active.
+The balance after adding the Monthly Interest= 625.00
+Please enter the amount you want to withdraw: 
+100
+The savings account is currently active.
+Balance after withdrawal= 525.00
+Please enter the amount you want to deposit: 
+250
+The savings account is currently active.
+Balance after deposit= 775.00
+Do you want to make any more withdrawals? If yes please enter 1 and if no please enter 0: 
+1
+Please enter the amount you want to withdraw: 
+300
+The savings account is currently active.
+Balance after withdrawal= 475.00
+Do you want to make any more withdrawals? If yes please enter 1 and if no please enter 0: 
+1
+Please enter the amount you want to withdraw: 
+75
+The savings account is currently active.
+Balance after withdrawal= 400.00
+Do you want to make any more withdrawals? If yes please enter 1 and if no please enter 0: 
+0
+Do you want to make any more deposits? If yes please enter 1 and if no please enter 0: 
+1
+Please enter the amount you want to deposit: 
+50
+The savings account is currently active.
+Balance after deposit= 450.00
+Do you want to make any more deposits? If yes please enter 1 and if no please enter 0: 
+1
+Please enter the amount you want to deposit: 
+50
+The savings account is currently active.
+Balance after deposit= 500.00
+Do you want to make any more deposits? If yes please enter 1 and if no please enter 0: 
+0
+The total number of deposits made = 3
+The total number of withdrawals made = 3
+The total service charge of the month is 0.0
+The savings account is currently active.
+
+Process finished with exit code 0
