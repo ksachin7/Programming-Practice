@@ -28,10 +28,10 @@ public class Member {
     }
 }
 
-class Employee extends Member {
+class NewEmployee extends Member {
     private String specialization;
 
-    public Employee(String name, int age, String phone, String address, double salary, String specialization) {
+    public NewEmployee(String name, int age, String phone, String address, double salary, String specialization) {
         super(name, age, phone, address, salary);
         this.specialization = specialization;
     }
@@ -56,7 +56,7 @@ class Manager extends Member{
 
 class MemberMain {
     public static void main(String[] args) {
-        Employee emp = new Employee("Person-1(Emp)", 27, "+910122333444", "Plot-No:367, Golden-park-apartment, xcity", 30000, "Java");
+        NewEmployee emp = new NewEmployee("Person-1(Emp)", 27, "+910122333444", "Plot-No:367, Golden-park-apartment, xcity", 30000, "Java");
         Manager mgr = new Manager("Person-2(Mgr)", 50, "+915556667770", "Plot-No:467, Swami-Kunj-apartment, ycity", 60000, "IT");
 
         emp.getEmployee();

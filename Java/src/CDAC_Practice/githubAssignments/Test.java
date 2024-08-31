@@ -1,4 +1,4 @@
-package itssachin.githubAssignments;
+package CDAC_Practice.githubAssignments;
 import java.util.Scanner;
 
 public class Test {

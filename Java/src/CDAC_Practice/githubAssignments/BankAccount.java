@@ -1,4 +1,4 @@
-package itssachin.githubAssignments;
+package CDAC_Practice.githubAssignments;
 
 // create abstract class BankAccount
 public abstract class BankAccount {

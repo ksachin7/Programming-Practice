@@ -1,4 +1,4 @@
-package itssachin.githubAssignments;
+package CDAC_Practice.githubAssignments;
 
 public class SavingsAccount extends BankAccount{
     public SavingsAccount(double balance, double annualInterestRate) {
@@ -38,7 +38,7 @@ public class SavingsAccount extends BankAccount{
     @Override
     double monthlyProcess(){
         balance = balance- super.monthlyServiceCharge;
-        calcInterest();
+        super.calcInterest();
         if(noOfWithdrawals> 4)
             super.monthlyServiceCharge+= 1;
 //        super.monthlyProcess();

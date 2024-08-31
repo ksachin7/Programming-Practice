@@ -5,13 +5,13 @@
 // Create an object of class 'Area' and call all the three methods.
 package CDAC_Practice;
 
-abstract class Shape{
+abstract class Shapes{
     abstract void rectangleArea(float length , float breadth);
     abstract void squareArea(float radius);
     abstract void circleArea(float side);
 }
 
-class Area extends Shape{
+class Area extends Shapes{
     double Area=0;
 
     @Override
@@ -33,7 +33,7 @@ class Area extends Shape{
     }
 }
 
-public class Shapes {
+class ShapesMain {
     public static void main(String[] args) {
         Area a = new Area();
 
