@@ -21,9 +21,13 @@ class ArrayPractice {
         // compare() returns 0 in output when arr0 is equal to arrr in size and has elements.
         System.out.println(Arrays.compare(arr0, arrr));
 
-        System.out.println(Arrays.mismatch(arr0, arrr));    // returning index: 3
+        System.out.println("Printing mismatch: "+Arrays.mismatch(arr0, arrr));    // returning index: 3
         Arrays.sort(arr0, 3, 5);    // Sorts the specified range of array in ascending order.
         System.out.println(Arrays.toString(arr0));
+
+        Arrays.fill(arr0, 6);
+        Arrays.fill(arr0, 1, 3, 7);
+        System.out.println("Printing filled array: "+Arrays.toString(arr0));
 
         System.out.println(Arrays.toString(Arrays.copyOf(arr0, 4)));
         System.out.println(Arrays.toString(Arrays.copyOfRange(arr0, 1, 3)));
